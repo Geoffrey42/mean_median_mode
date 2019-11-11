@@ -26,7 +26,7 @@ pub fn get_median(list: &mut Vec<i32>) -> Option<i32> {
     }
 }
 
-pub fn get_max_key(map: HashMap<&i32, i32>) -> Option<i32> {
+fn get_max_key(map: HashMap<&i32, i32>) -> Option<i32> {
     let mut result = None;
     let mut max = 0;
 
